@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/screens/home/components/body.dart';
+
 
 
 class DetailsScreen extends StatelessWidget {
@@ -7,7 +7,10 @@ class DetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Body(),
+      body: Container(
+        child: Center(
+          child: Text('DetailsScreen')),
+      ),
     );
   }
 }
